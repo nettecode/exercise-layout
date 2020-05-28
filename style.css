@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+    overflow: hidden;
+}
+
+header {
+    background-image: url('./girl.jpg');
+    background-position: center center;
+    height: 100vh;
+}
+
+.header-content {
+    width: 920px;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 20px 0;
+    position: relative;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul a:last-child li {
+    background-color: #EA918D;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+h2 {
+    font-size: 56px;
+    margin: 16px 0;
+}
+
+h2 > span {
+    display: block;
+}
+
+.hero-section .icons {
+    margin: 40px 0;
+}
+
+.hero-section .icons .icon {
+    color: #000;
+    float: left;
+}
+
+.hero-section .icons .icon span {
+    background-color: #fff;
+    padding: 16px;
+    border-radius: 50%;
+}
+
+.hero-section .icons .desc {
+    margin: 0 76px;
+    padding-top: 6px;
+}
+
+.hero-section .icons .desc strong {
+    font-size: 20px;
+    line-height: 37px;
+}
